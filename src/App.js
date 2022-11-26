@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-    <h1 className="text-center mb-3">Personagens</h1>
+    <h1 className="text-center mb-3"> <strong> Personagens </strong></h1>
 
     <Search setSearch={setSearch} updatePageNumber={updatePageNumber} />
 
@@ -44,6 +44,7 @@ function App() {
       />
   </div>
   );
+  
 }
 
 export default App;
